@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT #2</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        button{
+            color:red;
+            background-color:transparent;
+            border-radius: 5px;
+            border: 3px solid wheat;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        button:hover{
+            background-color:rgb(243, 172, 111);
+
+        }
+        div {
+            padding: 5px;
+        }
+        body{
+            background-color:cornsilk;
+        }
+        h1{
+            color: darkgoldenrod;
+        }
+        h2{
+            color:red
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 6px;
+            border-color: #96D4D4;
+            margin: 6px;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;" ><br>
+        <input type="text" placeholder="Search Name Here"  id="search">
+    </div>
+    <div style="text-align: center;"><br>
+        <select id="searched">
+            <option selected>Choose Class</option>
+            <option value="usama">Class 1</option>
+            <option value="ali">Class 2</option>
+            <option value="hassan">Class 3</option>
+            <option value="wajahat">Class 5</option>
+            <option value="wajahat">Class 6</option>
+            <option value="wajahat">Class 4</option>
+        </select>&nbsp;&nbsp;
+        <button class="btn btn-outline-danger"onclick="searched()">Submit</button>
+    </div>
+    <div id="ans1" style="text-align: center;">
+
+    </div>
+    <div id="ans" style="text-align: center;">
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
